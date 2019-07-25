@@ -37,7 +37,7 @@ class WeatherDetail extends Component {
                         <Modal.Title>
                             Weather forecast for {this.props.city.name}, {this.props.city.country}
                         </Modal.Title>
-                        <Button variant="secondary" onClick={() => this.props.hide()}>
+                        <Button variant="secondary" className="right" onClick={() => this.props.hide()}>
                             Close
                         </Button>
                     </Modal.Header>

@@ -30,6 +30,9 @@
 .bottom {
     align-self: flex-end;
 }
+.right {
+    margin-left: 250px;
+}
 
 @keyframes App-logo-spin {
     from {
