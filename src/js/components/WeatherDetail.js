@@ -57,7 +57,7 @@ class WeatherDetail extends Component {
                                 {list.map(e => (
                                     <tr key={e.dt}>
                                         <td key={Math.random()}>
-                                            <Moment format="MM/DD/YYYY @ hh:mm A">{e.dt}</Moment>
+                                            <Moment format="MM/DD/YYYY @ hh:mm A">{e.dt * 1000}</Moment>
                                         </td>
                                         <td key={Math.random()}>{e.main.temp}</td>
                                         <td key={Math.random()}>{e.main.temp_min}</td>
