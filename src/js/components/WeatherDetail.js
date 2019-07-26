@@ -20,7 +20,7 @@ class WeatherDetail extends Component {
         let active = 2;
         let items = [];
         const { list } = this.props.weatherInfoDetail;
-        items.push(<Pagination.First />, <Pagination.Prev />);
+        items.push(<Pagination.First key={Math.random()} />, <Pagination.Prev key={Math.random()} />);
         for (let number = 1; number <= 5; number++) {
             items.push(
                 <Pagination.Item key={number} active={number === active} onClick={this.props.pageChange}>
@@ -28,7 +28,7 @@ class WeatherDetail extends Component {
                 </Pagination.Item>,
             );
         }
-        items.push(<Pagination.Next />, <Pagination.Last />);
+        items.push(<Pagination.Next key={Math.random()} />, <Pagination.Last key={Math.random()} />);
 
         return (
             <>

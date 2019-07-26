@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
-import logo from '../../logo.svg';
+// import logo from '../../logo.svg';
 import '../../App.css';
 import { Container, Navbar, Nav, NavDropdown } from 'react-bootstrap';
 import { connect } from 'react-redux';
 import CityWeather from '../components/City';
-import WeatherDetail from './WeatherDetail';
 import * as weatherService from '../actions/index';
 
 class App extends Component {
