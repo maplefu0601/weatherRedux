@@ -7,7 +7,7 @@ import { connect } from 'react-redux';
 import * as weatherService from '../actions/index';
 
 class WeatherDetail extends Component {
-    componentWillMount() {
+    componentDidMount() {
         console.log('mount detail...');
         this.props.showForecast(this.props.city.id);
     }

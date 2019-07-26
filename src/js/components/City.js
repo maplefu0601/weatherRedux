@@ -6,7 +6,7 @@ import * as weatherService from '../actions/index';
 import WeatherDetail from './WeatherDetail';
 
 class CityWeather extends Component {
-    componentWillMount() {
+    componentDidMount() {
         this.props.fetchWeather(this.props.city.id);
     }
     componentWillReceiveProps(nextProps) {
