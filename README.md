@@ -9,6 +9,8 @@ go to localhost:3000
 
 ## Learning purpose
 
+This is a pracitce project using react with redux.
+
 Build a simple react/redux weather application. The application should show current weather of selected city and have functionality to provide a 5 day forecast for the selected city. Below is a wireframe for the screen.
 
 ## Requirements
