@@ -1,10 +1,25 @@
-## start
+## RUN
 
+```
+git clone
 npm install
-npm run start
+npm start
 go to localhost:3000
+```
 
 ## Learning purpose
+
+Build a simple react/redux weather application. The application should show current weather of selected city and have functionality to provide a 5 day forecast for the selected city. Below is a wireframe for the screen.
+
+## Requirements
+
+-   Use whatever libraries you want
+-   Have proper component breakdown
+-   Have app working via redux store
+-   Look & feel very flexible. It doesn't have to look the way it is shown in picture below but should look presentable.
+-   API call documentation can be found [here](https://openweathermap.org/api)
+
+> > > > > > > 55a94be7de8d8d641c8b8c6a72891b10a19db756
 
 Build a simple react/redux weather application.
 
