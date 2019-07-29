@@ -45,6 +45,7 @@ export const getWeather = cityId => {
 };
 
 export const getWeatherDetail = cityId => {
+    console.log('getWeatherDetail:----');
     return dispatch =>
         fetch(`${apiUrl}&id=${cityId}`)
             .then(response => response.json())

@@ -9,7 +9,7 @@ import * as weatherService from '../actions/index';
 class WeatherDetail extends Component {
     componentDidMount() {
         console.log('mount detail...');
-        this.props.showForecast(this.props.city.id);
+        // this.props.showForecast(this.props.city.id);
     }
     componentWillReceiveProps(nextProps) {
         if (nextProps.city.id !== this.props.city.id) {
